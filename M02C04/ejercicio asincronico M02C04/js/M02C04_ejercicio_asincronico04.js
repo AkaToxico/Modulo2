@@ -22,9 +22,6 @@
 
 function reimplemente (palabra1 , palabra2){
 
-    let hastaQueNum=prompt("Hasta que numero desea contar");
-    let fizz_num=prompt("Ingreso un numero y descrubre de que es multiplo en la consola imprimira Fizz");
-    let buzz_num=prompt("Ingreso un numero y descrubre de que es multiplo en la consola imprimira Buzz");
     let contador =1;
 
 while(contador<=hastaQueNum){
@@ -47,6 +44,8 @@ while(contador<=hastaQueNum){
 
 
 }
-
-reimplemente()
+    var hastaQueNum=prompt("Hasta que numero desea contar");
+    var fizz_num=prompt("Ingreso un numero y descrubre de que es multiplo en la consola imprimira Fizz");
+    var buzz_num=prompt("Ingreso un numero y descrubre de que es multiplo en la consola imprimira Buzz");
+    reimplemente()  
 
